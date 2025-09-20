@@ -1,0 +1,49 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#1F2937"/>
+  
+  <!-- Building facade pattern -->
+  <g opacity="0.2">
+    <!-- Vertical columns -->
+    <rect x="50" y="100" width="30" height="400" fill="white" rx="2"/>
+    <rect x="100" y="80" width="30" height="440" fill="white" rx="2"/>
+    <rect x="150" y="120" width="30" height="360" fill="white" rx="2"/>
+    <rect x="200" y="90" width="30" height="420" fill="white" rx="2"/>
+    <rect x="250" y="110" width="30" height="380" fill="white" rx="2"/>
+    <rect x="300" y="85" width="30" height="430" fill="white" rx="2"/>
+    <rect x="350" y="105" width="30" height="390" fill="white" rx="2"/>
+    <rect x="400" y="95" width="30" height="410" fill="white" rx="2"/>
+    <rect x="450" y="115" width="30" height="370" fill="white" rx="2"/>
+    <rect x="500" y="100" width="30" height="400" fill="white" rx="2"/>
+    
+    <!-- Additional smaller columns -->
+    <rect x="75" y="130" width="20" height="340" fill="white" rx="1"/>
+    <rect x="125" y="110" width="20" height="380" fill="white" rx="1"/>
+    <rect x="175" y="140" width="20" height="320" fill="white" rx="1"/>
+    <rect x="225" y="120" width="20" height="360" fill="white" rx="1"/>
+    <rect x="275" y="130" width="20" height="340" fill="white" rx="1"/>
+    <rect x="325" y="115" width="20" height="370" fill="white" rx="1"/>
+    <rect x="375" y="125" width="20" height="350" fill="white" rx="1"/>
+    <rect x="425" y="135" width="20" height="330" fill="white" rx="1"/>
+    <rect x="475" y="125" width="20" height="350" fill="white" rx="1"/>
+  </g>
+  
+  <!-- Horizontal floor lines -->
+  <g opacity="0.1">
+    <line x1="40" y1="150" x2="560" y2="150" stroke="white" stroke-width="1"/>
+    <line x1="40" y1="200" x2="560" y2="200" stroke="white" stroke-width="1"/>
+    <line x1="40" y1="250" x2="560" y2="250" stroke="white" stroke-width="1"/>
+    <line x1="40" y1="300" x2="560" y2="300" stroke="white" stroke-width="1"/>
+    <line x1="40" y1="350" x2="560" y2="350" stroke="white" stroke-width="1"/>
+    <line x1="40" y1="400" x2="560" y2="400" stroke="white" stroke-width="1"/>
+    <line x1="40" y1="450" x2="560" y2="450" stroke="white" stroke-width="1"/>
+  </g>
+  
+  <!-- Vertical structural lines -->
+  <g opacity="0.05">
+    <line x1="100" y1="50" x2="100" y2="550" stroke="white" stroke-width="2"/>
+    <line x1="200" y1="50" x2="200" y2="550" stroke="white" stroke-width="2"/>
+    <line x1="300" y1="50" x2="300" y2="550" stroke="white" stroke-width="2"/>
+    <line x1="400" y1="50" x2="400" y2="550" stroke="white" stroke-width="2"/>
+    <line x1="500" y1="50" x2="500" y2="550" stroke="white" stroke-width="2"/>
+  </g>
+</svg>
