@@ -1,6 +1,7 @@
 'use client'
 
-import { Check, Sparkles, Target, Zap, Calendar, Link, BarChart3, Handshake, Shield, FileText, MessageCircle } from 'lucide-react'
+import { Check, Sparkles, Target, Zap, Calendar, Link as LinkIcon, BarChart3, Handshake, Shield, FileText, MessageCircle } from 'lucide-react'
+import Link from 'next/link'
 import { useState } from 'react'
 
 export default function AboutPage() {
@@ -10,12 +11,12 @@ export default function AboutPage() {
       <header className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="flex items-center space-x-2 sm:space-x-3">
+          <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-7 h-7 sm:w-8 sm:h-8 bg-teal-400 rounded-sm flex items-center justify-center">
               <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
             </div>
             <span className="text-lg sm:text-xl font-semibold text-gray-900">AI Trial Hub</span>
-          </a>
+          </Link>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -121,7 +122,7 @@ export default function AboutPage() {
                   </div>
                   <div>
                     <blockquote className="text-gray-900 font-medium mb-2">
-                      "I validated two AI tools in minutes."
+                      &ldquo;I validated two AI tools in minutes.&rdquo;
                     </blockquote>
                     <cite className="text-sm text-gray-600">Ops Lead, mid-market SaaS</cite>
                   </div>
@@ -183,7 +184,7 @@ export default function AboutPage() {
             <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-sm border border-gray-100">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Need help?</h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                Get a quick read on which apps fit your use case. You can validate your business issue or solution within minutes depending on the use case. I'll map a short trial plan and next steps for your business to test before making decisions.
+                Get a quick read on which apps fit your use case. You can validate your business issue or solution within minutes depending on the use case. I&apos;ll map a short trial plan and next steps for your business to test before making decisions.
               </p>
               
               {/* CTA Button */}

@@ -1,6 +1,7 @@
 'use client'
 
 import { Rocket, Check, Mail, Calendar, Lock } from 'lucide-react'
+import Link from 'next/link'
 import { useState } from 'react'
 
 export default function SignupPage() {
@@ -32,17 +33,17 @@ export default function SignupPage() {
       <header className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 bg-white">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="flex items-center space-x-2 sm:space-x-3">
+          <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-7 h-7 sm:w-8 sm:h-8 bg-teal-400 rounded-sm flex items-center justify-center">
               <Rocket className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
             </div>
             <span className="text-lg sm:text-xl font-semibold text-gray-900">AI Trial Hub</span>
-          </a>
+          </Link>
 
           {/* Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <a href="/apps" className="text-gray-700 hover:text-gray-900 font-medium">Apps</a>
-            <a href="/" className="text-gray-700 hover:text-gray-900 font-medium">How It Works</a>
+            <Link href="/" className="text-gray-700 hover:text-gray-900 font-medium">How It Works</Link>
             <a href="/about" className="text-gray-700 hover:text-gray-900 font-medium">About</a>
             <a href="/signup" className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2.5 rounded-lg font-medium transition-colors">
               Start Free

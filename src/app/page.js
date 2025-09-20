@@ -1,7 +1,8 @@
 'use client'
 
-import { Sparkles, Rocket, Play, Calendar, Menu, X, Zap, Monitor, Target, FileText, Mic, ImageIcon, Mail, Link, BarChart3, Grid3X3, Users, Twitter, Github, Linkedin } from 'lucide-react'
+import { Sparkles, Rocket, Play, Calendar, Menu, X, Zap, Monitor, Target, FileText, Mic, ImageIcon, Mail, Link as LinkIcon, BarChart3, Grid3X3, Users, Twitter, Github, Linkedin } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { useState } from 'react'
 
 export default function Home() {
@@ -13,12 +14,12 @@ export default function Home() {
       <header className="px-4 sm:px-6 lg:px-8 py-4 sm:py-6 bg-white">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="flex items-center space-x-2 sm:space-x-3">
+          <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
             <div className="w-7 h-7 sm:w-8 sm:h-8 bg-teal-400 rounded-sm flex items-center justify-center">
               <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
             </div>
             <span className="text-lg sm:text-xl font-semibold text-gray-900">AI Trial Hub</span>
-          </a>
+          </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -365,7 +366,7 @@ export default function Home() {
                 <div className="flex items-start space-x-4 pt-4">
                   <div className="flex-shrink-0">
                     <div className="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center">
-                      <Link className="w-6 h-6 text-gray-700" />
+                      <LinkIcon className="w-6 h-6 text-gray-700" />
                     </div>
                   </div>
                   <div className="flex-1">
@@ -503,7 +504,7 @@ export default function Home() {
                 
                 {/* Quote */}
                 <blockquote className="text-lg font-bold text-gray-900 mb-4">
-                  "I trialed two apps and cut reporting time in half."
+                  &ldquo;I trialed two apps and cut reporting time in half.&rdquo;
                 </blockquote>
                 
                 {/* Name and Title */}
@@ -530,7 +531,7 @@ export default function Home() {
                 
                 {/* Quote */}
                 <blockquote className="text-lg font-bold text-gray-900 mb-4">
-                  "Free pilots helped us find real wins fast."
+                  &ldquo;Free pilots helped us find real wins fast.&rdquo;
                 </blockquote>
                 
                 {/* Name and Title */}
@@ -557,7 +558,7 @@ export default function Home() {
                 
                 {/* Quote */}
                 <blockquote className="text-lg font-bold text-gray-900 mb-4">
-                  "Simple tools my teams actually use."
+                  &ldquo;Simple tools my teams actually use.&rdquo;
                 </blockquote>
                 
                 {/* Name and Title */}
