@@ -1,6 +1,6 @@
 # AI Trial Hub — Marketplace Landing Page
 
-AI Trial Hub is a marketing site for showcasing AI applications that offer short trial experiences before full integration. The project is built with Next.js 15 (App Router) and Tailwind CSS v4, and it ships with responsive sections for the hero, feature explanations, curated app listings, testimonials, and signup flows.
+AI Trial Hub is a marketing site for showcasing AI applications that offer short trial experiences before full integration. The project is built with Next.js 15 (App Router) and Tailwind CSS v4, and it ships with responsive sections for the hero, feature explanations, curated app listings, testimonials.
 
 ## Features
 
